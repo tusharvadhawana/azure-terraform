@@ -24,6 +24,6 @@ provider "azurerm" {
 
 #Create Resource Group
 resource "azurerm_resource_group" "Tushar" {
-  name     = "Terraform-Action"
+  name     = "Terraform-Action-Ankush"
   location = "northeurope"
 }
