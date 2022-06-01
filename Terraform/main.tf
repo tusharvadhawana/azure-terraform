@@ -7,14 +7,6 @@ terraform {
   }
 }
 
-provider "azurerm" {
-  subscription_id = "22b9777d-3557-4337-a4d8-80795dff8782"
-  client_id       = "3005d23c-c5ff-4460-8531-ed2bece3755a"
-  client_secret   = "iEQ8Q~PkIU1I2lKMxT4pW0qSXrRZKmQYqlqcHbj_"
-  tenant_id       = "c3df6fe7-c3d6-46c0-91c1-e44b1229f163"
-  features {}
-}
-
 
 ## Create Resource Group ##
 resource "azurerm_resource_group" "rg" {
