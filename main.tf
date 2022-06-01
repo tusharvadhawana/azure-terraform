@@ -12,10 +12,14 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "2.99.0"
-      features {}
     }
   }
 }
+
+provider "azurerm" {
+  feature {}
+}
+
 
 #Create Resource Group
 resource "azurerm_resource_group" "Tushar" {
