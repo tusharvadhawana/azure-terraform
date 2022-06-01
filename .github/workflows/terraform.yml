@@ -38,6 +38,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Terraform plan
+        uses: hashicorp/terraform-github-actions@master
         run: terraform plan
       
       # Runs a set of commands using the runners shell
